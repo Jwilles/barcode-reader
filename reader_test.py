@@ -1,7 +1,4 @@
 from SimpleCV import Color,Camera,Display
-import requests
-import RPi.GPIO as GPIO
-
 
 cam = Camera()
 display = Display()
