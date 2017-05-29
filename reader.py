@@ -15,6 +15,9 @@ def blink():
   GPIO.output(17, GPIO.LOW) 
 
 def post_request(input_method, barcode):
+  payload = { 'method': input_method, 'upc':  barcode }
+  r = requests.post('http://localhost:3000/api', data=payload)
+  print r.status_code
   
 
 while(display.isNotDone()):
