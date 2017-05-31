@@ -7,5 +7,5 @@ The reader is built using the [SimpleCV](http://simplecv.org/) framework for [Op
 
 ## RPi with indicator light and add/remove item selection
 
-![Alt text](/pics/schemeit-project.png?raw=true "RPi Circuit")
+![Alt text](/pics/circuit-diagram.png?raw=true "RPi Circuit")
       
